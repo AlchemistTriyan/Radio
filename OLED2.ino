@@ -6,7 +6,7 @@
 
 #define RADIOSTATION 6     // Button pin
 #define RADIOADDRESS 0x60  // TEA5767 I2C address
-#define AUDIOPIN A0        // Pin for FFT 
+#define AUDIOPIN A0        // Pin for ADC 
 
 const uint16_t samples = 16; // 16 samples for the audio waveform
 const double samplingFrequency = 20000; // Frequency for the sampling
